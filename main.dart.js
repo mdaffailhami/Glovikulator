@@ -54445,7 +54445,8 @@ r.m(0,"{",C.b9)
 r.m(0,"}",C.eD)
 r.m(0,",",C.hD)
 l=J.cU(new X.SW(new X.Re(r),P.u(s,t.z)).a1Y(0,q).ai(0,C.M,new X.MW(P.u(s,t.t_),P.aI(t.ps))))
-if(C.c.v(l,".0")){j.b=l.split(".")[0]
+s=l.length
+if(l[s-1]==="0"&&l[s-2]==="."){j.b=l.split(".")[0]
 j.a=l.split(".")[0]}else j.a=j.b=l}}else{j.b=r+a
 j.a=q+b}k.aT(new Y.a05(j,k))},
 d0(a){return this.wD(a,null)},
