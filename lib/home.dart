@@ -45,7 +45,8 @@ class _HomeState extends State<Home> {
         String result =
             expression.evaluate(EvaluationType.REAL, ContextModel()).toString();
 
-        if (result.contains('.0')) {
+        if (result[result.length - 1] == '0' &&
+            result[result.length - 2] == '.') {
           newText = result.split('.')[0];
           newExpression = result.split('.')[0];
         } else {
