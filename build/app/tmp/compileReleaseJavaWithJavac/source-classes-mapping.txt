@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/mdi/glovikulator/BuildConfig.java
- com.mdi.glovikulator.BuildConfig
